@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "flame",
+      "author": [
+        {
+          "@id": "#Aleksandra_Nenadic1-1"
+        },
+        {
+          "@id": "#Steve_Crouch1-1"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#Aleksandra_Nenadic1-1",
+      "@type": "Person",
+      "name": "Aleksandra_Nenadic1-1"
+    },
+    {
+      "@id": "#Steve_Crouch1-1",
+      "@type": "Person",
+      "name": "Steve_Crouch1-1"
+    }
+  ]
+}
